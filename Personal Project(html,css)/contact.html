@@ -3,54 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact | 2026 Trends</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-
-         <section id="section-1">
+    <section id="contact-hero">
         <div class="container">
             <header>
-                <img src="images/logo.png">
+                <img src="images/logo.png" alt="Logo" class="logo">
                 <nav>
                     <ul>
-                        <li class="active"><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></l>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li class="active"><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
-
             </header>
             <div class="main-heading">
-                <h1>hi there! we are the new kids on the block and we build awesome websites and mobile apps.</h1>
-                <a href="#">Work with us</a>
+                <h1>Get in Touch</h1>
+                <p>Collaborate with us on the next big silhouette.</p>
             </div>
-
         </div>
     </section>
 
-    <div class="container">
-  <form action="action_page.php">
+    <section id="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                
+                <div class="contact-info">
+                    <h2>Our Studios</h2>
+                    <div class="line"></div>
+                    <div class="info-item">
+                        <h3>Prishtina Studio</h3>
+                        <p>12 Fashion Ave, Prishtina, Kosovo</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Inquiries</h3>
+                        <p>hello@trend2026.com</p>
+                        <p>+383 44 000 000</p>
+                    </div>
+                    <div class="social-icons">
+                        <p>Follow our journey on Instagram & TikTok</p>
+                    </div>
+                </div>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <div class="form-container">
+                    <form action="#">
+                        <div class="row">
+                            <div class="input-group">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+                            </div>
+                            <div class="input-group">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+                            </div>
+                        </div>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="interest">Primary Interest</label>
+                        <select id="interest" name="interest">
+                            <option value="poetcore">Poetcore Styling</option>
+                            <option value="glamoratti">Glamoratti Collection</option>
+                            <option value="celestial">Extra-Celestial Tech</option>
+                            <option value="commercial">Commercial Partnership</option>
+                        </select>
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Tell us about your project or inquiry..." style="height:150px"></textarea>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <input type="submit" value="Send Message" class="submit-btn">
+                    </form>
+                </div>
 
-    <input type="submit" value="Submit">
+            </div>
+        </div>
+    </section>
 
-  </form>
-</div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Fashion Collective. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
