@@ -1,4 +1,4 @@
-/* Contact Hero */
+
 #contact-hero {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/tech-luxe.jpg');
     background-size: cover;
@@ -7,7 +7,7 @@
     color: white;
 }
 
-/* Main Layout */
+
 #contact-main {
     padding: 80px 0;
     background: #fff;
@@ -19,7 +19,7 @@
     gap: 60px;
 }
 
-/* Info Side */
+
 .contact-info h2 {
     font-size: 2rem;
     text-transform: uppercase;
@@ -31,7 +31,7 @@
 }
 
 .info-item h3 {
-    color: #008080; /* Teal */
+    color: #008080; 
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
@@ -41,7 +41,7 @@
     line-height: 1.5;
 }
 
-/* Form Side */
+
 .form-container {
     background: #fdfdfd;
     padding: 40px;
@@ -99,7 +99,7 @@ input:focus, textarea:focus {
     background-color: #005f5f;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .contact-wrapper {
         grid-template-columns: 1fr;

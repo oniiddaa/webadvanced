@@ -1,4 +1,4 @@
-/* About Hero Styling */
+
 #about-hero {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hero-bg.jpg');
     background-size: cover;
@@ -27,7 +27,7 @@
     color: #444;
 }
 
-/* Trend Grid */
+
 .trend-grid {
     display: flex;
     flex-direction: column;
@@ -46,11 +46,11 @@
 }
 
 .trend-card:nth-child(even) {
-    direction: rtl; /* Flips the image and text for variety */
+    direction: rtl; 
 }
 
 .trend-card:nth-child(even) .trend-info {
-    direction: ltr; /* Keeps text left-to-right inside flipped card */
+    direction: ltr; 
 }
 
 .trend-card img {
@@ -62,7 +62,7 @@
 
 .trend-info h3 {
     font-size: 1.8rem;
-    color: #008080; /* Transformative Teal */
+    color: #008080; 
     margin-bottom: 20px;
 }
 
@@ -79,7 +79,7 @@ footer {
     color: #888;
 }
 
-/* Responsive fix for mobile */
+
 @media (max-width: 768px) {
     .trend-card {
         grid-template-columns: 1fr;
